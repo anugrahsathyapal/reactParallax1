@@ -1,0 +1,172 @@
+/* #textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+} */
+ /* src/StickyNavbar.css */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #33333300;
+  padding: 1rem;
+  overflow-x: hidden;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  
+  display: flex;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: end;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.navbar-item {
+  margin: 0 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+
+  .animation, .animation_layer {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
+.animation {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.animation_layer {
+    background-size: contain; /* Ensure the image is fully visible within the container */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    position: absolute;
+}
+
+.animation_layer.parallax {
+    position: fixed;
+}
+
+#leftmiddle {
+    background-image: url(./assets/LeftBackmiddlelayer.png);
+   
+}
+
+#leftbrown {
+  background-image: url(./assets/LeftBrowntreelayer.png);
+  left: 150px;
+}
+
+#leftTree{
+  background-image: url(./assets/LeftTree.png);
+
+}
+
+#text{
+  background-image: url(./assets/Text.png);
+  transform: scale(0.8); 
+  right: 120px;
+  top: 50px;
+
+}
+
+#rightLightTree{
+  background-image: url(./assets/LightGreenbacktree.png);
+  background-position: right;
+}
+
+#rightBack{
+  background-image: url(./assets/RightDarkTreeback.png);
+  background-position: right;
+}
+
+#rightTree{
+  background-image: url(./assets/RightTree1.png);
+  background-position: right;
+}
+
+#rightBase{
+  background-image: url(./assets/TigerBase.png);
+  transform: scale(0.6); 
+  top: 500px;
+  left: 300px;
+}
+
+#tiger{
+  background-image: url(./assets/Tiger.png);
+  transform: scale(0.4); 
+  background-position: right;
+  top: 120px;
+  left: 200px;
+}
+
+#topLeaf{
+  background-image: url(./assets/tOPlEAVES.png);
+  transform: scale(0.4);
+  bottom: 300px;
+}
+
+#bottomLeaf{
+  background-image: url(./assets/BottomLeaves.png);
+  transform: scale(0.4);
+  top: 450px;
+}
+
+
+#slider{
+  margin-left: 1550px;
+}
